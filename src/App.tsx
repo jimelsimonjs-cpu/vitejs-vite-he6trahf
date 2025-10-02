@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Dashboard from "./Dashboard";
-import BudgetView from "./BudgetView";
+import BudgetView from "./BudgetView.jsx";
 import { LocalAPI } from "./lib/localApi";
 
 function App() {
